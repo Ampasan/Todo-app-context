@@ -8,10 +8,10 @@
 Aplikasi catatan tugas yang membantu mencatat, mengelola, dan memantau progres aktivitas harian. Pengguna dapat menambah todo, menandai selesai/belum, menghapus todo, serta menghapus semua item yang sudah selesai. Selain itu tersedia filter (All/Active/Done), mode sort Manual/Prioritas, dan fitur drag & drop untuk mengatur urutan todo sesuai kebutuhan.
 
 ## Fitur yang Diimplementasikan
-- Implementasi `TodoReducer` dengan minimal 4 action types
+- Implementasi `TodoReducer`
 - `TodoContext` dengan `TodoProvider` yang menggunakan `useReducer`
 - Custom hook `useTodos()` dengan fitur filter todo
-- Komponen `TodoItem`, `AddTodoForm`, dan `FilterBar` berfungsi dengan baik
+- Komponen `TodoItem`, `AddTodoForm`, dan `FilterBar`
 - Persist data todo menggunakan `AsyncStorage`
 - `HomeScreen` menggabungkan semua komponen dan hooks
 - Dark Mode: toggle dark/light mode menggunakan Context API terpisah
