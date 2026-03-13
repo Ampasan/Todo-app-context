@@ -16,7 +16,7 @@ const AddTodoForm = ({ onAdd }) => {
   const handleSubmit = () => {
     if (text.trim()) {
       onAdd(text, priority);
-      setText(""); // Reset input
+      setText("");
     }
   };
   return (

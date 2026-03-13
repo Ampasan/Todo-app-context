@@ -30,7 +30,7 @@ export const todoReducer = (state, action) => {
         ];
       }
 
-      if (!action.payload?.text?.trim()) return state; // Guard
+      if (!action.payload?.text?.trim()) return state;
       return [
         ...state,
         {
