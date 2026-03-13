@@ -10,10 +10,10 @@ Aplikasi catatan tugas yang membantu mencatat, mengelola, dan memantau progres a
 ## Screenshot
 
 ### Light Mode
-![Light Mode](assets/screenshots/light.png)
+![Light Mode](./assets/screenshots/light.png)
 
 ### Dark Mode
-![Dark Mode](assets/screenshots/dark.png)
+![Dark Mode](./assets/screenshots/dark.png)
 
 ## Cara Menjalankan
 npm install && npx expo start
