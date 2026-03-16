@@ -31,4 +31,6 @@ Aplikasi catatan tugas yang membantu mencatat, mengelola, dan memantau progres a
 </p>
 
 ## Cara Menjalankan
+```bash
 npm install && npx expo start
+```
